@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.core.widget.NestedScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    app:layout_behavior="com.google.android.material.appbar.AppBarLayout$ScrollingViewBehavior"
+    tools:context=".MainActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_margin="8dp"
+        android:orientation="vertical">
+
+        <EditText
+            android:id="@+id/et_timer"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="4dp"
+            android:hint="Enter Timer Count"
+            android:inputType="number" />
+
+        <Button
+            android:id="@+id/btn_timer"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="4dp"
+            android:background="@drawable/button_background"
+            android:text="Start Timer"
+            android:textColor="@color/colorTextIcons" />
+
+        <Button
+            android:id="@+id/btn_calendar_event"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="4dp"
+            android:background="@drawable/button_background"
+            android:text="Calendar Event"
+            android:textColor="@color/colorTextIcons" />
+
+        <Button
+            android:id="@+id/btn_video"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="4dp"
+            android:background="@drawable/button_background"
+            android:text="Video Capture"
+            android:textColor="@color/colorTextIcons" />
+
+        <Button
+            android:id="@+id/btn_contact_select"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="4dp"
+            android:background="@drawable/button_background"
+            android:text="Select Contact"
+            android:textColor="@color/colorTextIcons" />
+
+        <EditText
+            android:id="@+id/et_web_search"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="4dp"
+            android:hint="Enter URL"
+            android:inputType="text" />
+
+        <Button
+            android:id="@+id/btn_web_search"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="4dp"
+            android:background="@drawable/button_background"
+            android:text="Web Search"
+            android:textColor="@color/colorTextIcons" />
+
+    </LinearLayout>
+
+</androidx.core.widget.NestedScrollView>
